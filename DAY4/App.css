@@ -1,0 +1,29 @@
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+body.register-page{
+  background-image: url("plushie.png");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body.home-page{
+  background-image: url("plushie.png");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+@media (max-width: 169px) {
+  body {
+    font-size: 12px; 
+  }
+}
