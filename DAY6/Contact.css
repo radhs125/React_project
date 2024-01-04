@@ -1,0 +1,93 @@
+/* ContactPage.css */
+body.contact-page {
+    background-image:url(plush\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 60px;
+    border-radius: 30px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: black;
+    border-radius: 90px;
+  }
+  
+  h2 {
+    text-align: center;
+    color:black;
+  }
+  
+  p {
+    color: black;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    background: transparent;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .submit-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px ;
+    width:40%;
+    margin-left: 200px;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .message-sent-dialog {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .message-sent-dialog p {
+    margin: 0;
+  }
+  
+  .message-sent-dialog button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .message-sent-dialog button:hover {
+    background-color: #555;
+  }
+  
